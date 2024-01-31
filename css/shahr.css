@@ -1,0 +1,160 @@
+
+div.menu>nav.menu>label[for=show]
+{
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    font-size:12px;
+    color:black;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top:0px;
+    left: -50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+div.menu>nav.menu>label[for=show]>svg{
+    display: inline-block;
+    position: absolute;
+    left:225px;
+    top: 79px;
+      
+    }
+    div.menu>nav.menu>label[for=show]>span{
+        display: inline-block;
+        position: absolute;
+        left:70px;
+        top: 65px;
+    }
+
+    div.menu>nav.menu>div.location>div.city>ul>li> label[for=hide]{
+
+    display: inline-block;
+    font-size:20px;
+    color:gray;
+    position: absolute;
+    left: 46px;
+    top:-10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+div.menu>nav.menu>input[type=radio]{
+    display: none;
+
+}
+div.menu>nav.menu>div.location{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    left: 0;
+    display: none;
+}
+div.menu>nav.menu>div.location>div.city{
+    width: 500px;
+    height: 400px;
+    background-color:#FFFFFF;
+    position: absolute;
+    left: calc(50% - 250px);
+    top:calc(50% - 200px);
+    border-radius: 10px;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+div.menu>nav.menu>div.location>div.city>ul{
+    width: 100%;
+    height: 400px;
+    list-style: none;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 5px;
+
+  
+    
+}
+div.menu>nav.menu>div.location>div.city>ul>li{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    color: black;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+div.menu>nav.menu>div.location>div.city>ul>li:nth-of-type(1){
+    margin-top: 30px;
+   
+}
+div.menu>nav.menu>div.location>div.city>ul>li>span.span-1>svg{
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top:0px;
+  
+}
+div.menu>nav.menu>div.location>div.city>ul>li>span.span-2{
+    display: inline-block;
+    position: absolute;
+    color: #584064;
+    right: 20px;
+    top: 0px;
+}
+div.menu>nav.menu>div.location>div.city>ul>li>span.span-2:nth-of-type(1){
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+div.menu>nav.menu>div.location>div.city>ul>li>hr,div.menu>nav.menu>div.location>div.city>ul>hr.shahr{
+    display: inline-block;
+    position: relative;
+    width: 420px;
+    color:  #f5efef !important;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+div.menu>nav.menu>div.location>div.city>ul>li>hr{
+    margin-top: 20px;
+}
+div.menu>nav.menu>div.location>div.city>ul>li>span.s-0{
+    display: inline-block;
+    position: absolute;
+    font-size: 14px;
+    line-height: 20px;
+    right: 20px;
+    top: -5px;
+
+  
+}
+div.menu>nav.menu>div.location>div.city>ul>li>span.s-1>svg{
+    display: inline-block;
+    position: absolute;
+    line-height: 20px;
+    right: 20px;
+    top: 5px;
+  
+  
+}
+div.menu>nav.menu>div.location>div.city>ul>li>span.s-2{
+    display: inline-block;
+    position: absolute;
+    line-height: 20px;
+    color: #19bfd3;
+    font-size: 14px;
+    right: 60px;
+    top: 5px;
+
+  
+}
+
+
+#show:checked ~div.location{
+    display: block;
+}

@@ -1,0 +1,17 @@
+@import"./setting.css";
+@import"./header.css";
+@import"./jet.css";
+@import"./menu.css";
+@import"./shegeft.css";
+@import"./slider.css";
+@import"./nazarat.css";
+@import"./karim.css";
+@import"./payan.css";
+@import"./shahr.css";
+@font-face {
+    font-family: IRANYEKAN;
+    src: url(../fonts/IRANYekan.eot);
+    src: url(../fonts/IRANYekan.ttf);
+    src: url(../fonts/IRANYekan.woff);
+    src: url(../fonts/IRANYekan.woff2);
+}

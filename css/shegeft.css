@@ -1,0 +1,94 @@
+
+.glob{
+  width: var(--W);
+  height:auto;
+  position: var(--p);
+}
+div.shegeft{
+    top:60px ;
+  }
+  div.shegeft>a>img{
+    width:100%;
+    display: inline-block;
+    text-align: center;
+   
+  }
+  /* 4ax*/
+  div.ax4{
+    top: 55px;
+    right: 18px;
+  }
+  div.ax4>a>img{
+    width: 316px;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 6px;
+  }
+  /*kharid*/
+  div.kharid{
+    top:90px;
+  }
+  div.kharid>h3.kharid{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+  }
+  div.kharid-ax-1{
+    top:130px;
+    right:20px;
+  }
+  div.kharid-ax-1>a>img{
+    width: 130px;
+    border-radius: 20px;
+    margin-left:25px;
+    margin-right: 25px;
+
+  }
+  div.kharid-p{
+    top:130px;
+    right:22px;
+  }
+  div.kharid-p>p{
+  display: inline-block;
+    margin-left: 71px;
+    margin-right: 71px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  div.kharid-ax-2{
+    top:150px;
+    right:130px;
+  }
+
+
+  div.kharid-ax-2>a>img{
+    width: 130px;
+    border-radius: 20px;
+    margin-left:25px;
+    margin-right: 25px;
+  }
+
+ div.kharid2-p{
+  top:150px;
+  right:130px;
+ }
+ div.kharid2-p>p{
+  display: inline-block;
+  margin-left: 45px;
+  margin-right: 45px;
+  font-size: 14px;
+  font-weight: 600;
+ }
+div.banner-2{
+  top:230px;
+  right:8px;
+}
+div.banner-2>a>img{
+  width: 48%;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

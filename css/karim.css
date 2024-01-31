@@ -1,0 +1,62 @@
+
+.glob{
+    width: var(--W);
+    height:auto;
+    position: var(--p);
+  }
+  div.gift-2{
+    right: 10px;
+    top:20px;
+  }
+  div.gift-2>a>img{
+    width: 48%;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+div.karim-1{
+    border: 1px solid rgb(221, 219, 219);
+    border-radius: 20px;
+    padding: 10px;
+    top:30px;
+    right: 10px;
+}
+div.karim-1>a>img{
+  width: 100%;
+
+}
+div.karim-2{
+    top:70px;
+    right: 5px;
+    border-bottom: 8px solid #941B80;
+}
+div.karim-2>a>img{
+  width: 100%;
+}
+
+div.karim-3{
+    top:50px;
+    right: 5px;
+}
+div.karim-3>a>img{
+  width: 100%;
+  
+}
+div.karim-4{
+  border: 1px solid rgb(221, 219, 219);
+  border-radius: 20px;
+  padding: 10px;
+  top:60px;
+  right: 10px;
+}
+div.karim-4>a>img{
+width: 100%;
+
+}
+div.karim-5{
+  top:20px;
+  right: 5px;
+}
+
