@@ -9,6 +9,7 @@ body{
     min-height: 2000px;
     direction: rtl;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 :root{
     --p:relative;

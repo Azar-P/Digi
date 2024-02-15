@@ -133,9 +133,8 @@ div.menu>nav.menu>ul.list>li>div.submenu>div.left>ul>li{
     width: 100%;
     height: 40px;
     margin-bottom: 10px;
-
-
 }
+
 div.menu>nav.menu>ul.list>li>div.submenu>div.left>ul>li>a{
     width: 100%;
     height: 100%;
@@ -158,7 +157,14 @@ height: 100%;
 position: absolute;
 top: 0;
 right: 18%;
+display: none;
 }
+
+div.menu>nav.menu>ul.list>li>div.submenu>div.left>ul>li:hover>div{
+display: block;
+}
+
+
 div.menu>nav.menu>ul.list>li>div.submenu>div.left>ul>li>div>div{
     width: 24%;
     height: 100%;
@@ -193,7 +199,6 @@ div.menu>nav.menu>ul.list>li>div.submenu>div.left>ul>li>div>div>ul>li.li-f>a{
 }
 div.menu>nav.menu>ul.list>li>div.submenu>div.left>ul>li>div>div>ul>li.li-f>a:hover{
     color: red;
-
 }
 
 
@@ -212,7 +217,6 @@ div.menu>nav.menu>ul.list>li>div.submenu>div.left>ul>li>div>div>ul>li>a{
    line-height: 40px;
  
 }
-
 
 
 div.menu>nav.menu>hr.menu{
